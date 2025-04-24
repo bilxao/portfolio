@@ -26,7 +26,7 @@ const greeting = {
     "Principal Unity Developer | XR/AR/VR Expert | Technical Project Manager | Web3 & Blockchain Games Specialist"
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1gOYCGaLYUoAyOI-TPxePRk9Bb2HosSKWIGaoU-RR8Zc/edit?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TnzooEYQTO2rvXl7dh4WhWsc0ck6E6a2/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
