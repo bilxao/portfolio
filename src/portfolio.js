@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Syed Bilal Shah",
+  title: "Hi all, I'm Bilal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Principal Unity Developer | XR/AR/VR Expert | Technical Project Manager | Web3 & Blockchain Games Specialist"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1gOYCGaLYUoAyOI-TPxePRk9Bb2HosSKWIGaoU-RR8Zc/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/bilxao",
+  linkedin: "https://www.linkedin.com/in/bilal-se/",
+  gmail: "bilxao.bs@gmail.com",
+  facebook: "https://www.facebook.com/syedbilal.shah.7773631/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,75 +45,75 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle:
+    "Unity Expert | XR/VR Specialist | Web3 Game Architect | Leading Teams from Code to Market",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🎮 Designing and developing immersive 3D games using Unity."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🕶️ Building interactive XR/VR/AR applications"
+    ),
+    emoji(
+      "🧠 Integrating AI-driven NPCs, procedural generation, and multiplayer logic"
+    ),
+    emoji(
+      "🔗 Creating blockchain-integrated gameplay mechanics including NFTs, wallet authentication"
+    ),
+    emoji(
+      "🧩 Leading Agile teams, managing sprints, and delivering scalable features as a Technical Project Manager"
+    ),
+    emoji(
+      "📈 Designing game economies, token utilities, and user acquisition funnels for Web3 ecosystems"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  {
+    skillName: "Unity",
+    fontAwesomeClassname: "fab fa-unity", // Optional, may require custom icon
+  },
+  {
+    skillName: "C#",
+    fontAwesomeClassname: "fas fa-code",
+  },
+  {
+    skillName: "Photon Fusion",
+    fontAwesomeClassname: "fas fa-network-wired",
+  },
+  {
+    skillName: "XR/VR/AR",
+    fontAwesomeClassname: "fas fa-vr-cardboard",
+  },
+  {
+    skillName: "Web3",
+    fontAwesomeClassname: "fab fa-ethereum",
+  },
+  {
+    skillName: "Firebase",
+    fontAwesomeClassname: "fas fa-fire",
+  },
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git-alt",
+  },
+  {
+    skillName: "GitHub",
+    fontAwesomeClassname: "fab fa-github",
+  },
+  {
+    skillName: "Project Management",
+    fontAwesomeClassname: "fas fa-project-diagram",
+  },
+  {
+    skillName: "Jira",
+    fontAwesomeClassname: "fab fa-jira", // Custom or Atlassian icon needed
+  }
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,23 +123,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "National University of Modern Languages",
+      logo: require("./assets/images/NUML.png"),
+      subHeader: "BS - Software Engineering",
+      duration: "August 2011 - June 2015",
+      desc: "Graduated with a solid foundation in software design, computer science, and full-stack development. Built early prototypes of simulation systems and multiplayer game logic.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Capstone project: Real-time multiplayer card game using custom server-client architecture",
+    "Lead role in a team that developed a VR-based educational training prototype",
+    "Worked as assistant to a senior professor on AI-based research for pathfinding algorithms",
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,16 +143,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Unity Game Development",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Multiplayer / Networking (Photon, Fusion, Netcode)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "XR / VR / AR Development",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Web3 / Blockchain Game Integration",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Technical Project Management",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +172,49 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Project Manager / Unity 3D Specialist",
+      company: "Funsol Technologies",
+      companylogo: require("./assets/images/funsolLogo.png"),
+      date: "Feb 2024 – Present",
+      desc: "Managed Unity 3D development for Web3 Metaverse projects, balancing performance optimization with real-time multiplayer implementation.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Project Development Manager / Unity 3D Lead",
+      company: "Metator - IR Solutions",
+      companylogo: require("./assets/images/irsolutionsLogo.png"),
+      date: "Sep 2022 – Jan 2024",
+      desc: "Led VR architecture and gameplay development for immersive metaverse experiences.",
+      descBullets: [
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Technical Team Lead / Unity Game Developer",
+      company: "Funsol Technologies",
+      companylogo: require("./assets/images/funsolLogo.png"),
+      date: "Apr 2019 – Aug 2022",
+      desc: "Built and optimized Unity 3D mobile games, driving millions of downloads and high retention.",
+      descBullets: [
+      ]
+    },
+    {
+      role: "Simulation Developer / Project Manager",
+      company: "Vision Next LLC (QAF-PAF Joint CBT Project)",
+      companylogo: require("./assets/images/visionnextLogo.png"),
+      date: "Jul 2017 – Sep 2018",
+      desc: "Developed a high-fidelity Unity-based CBT simulator for pilot training, with real-time hardware integration.",
+      descBullets: [
+      ]
+    },
+    {
+      role: "Senior Unity 3D Developer",
+      company: "Knock Solutions",
+      companylogo: require("./assets/images/knocksolutionsLogo.png"),
+      date: "Aug 2015 – Jun 2017",
+      desc: "Created Unity games with scalable architecture, real-time networking, and engaging player loops.",
+      descBullets: [
+      ]
     }
   ]
 };
@@ -206,96 +224,125 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some flagship products and startups where I built or led their core tech",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/metascapesLogo.webp"),
+      projectName: "Metascapes",
+      projectDesc:
+        "A community-driven metaverse with land customization, multiplayer sports, AI bots, and blockchain-based land ownership. Built in Unity using Photon Fusion and a custom backend.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://metascapes.io/" // Replace with actual URL
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/undeadLogo.webp"),
+      projectName: "Undead MetaClash",
+      projectDesc:
+        "Web3 multiplayer battle game with NFT-based characters, maps, and assets. Developed gameplay systems, UI, and decentralized interactions.",
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://drive.google.com/file/d/1hHq9Nw8Ii1KILZfki_oFUBs5xZ3-HhbH/view?usp=sharing" // Replace with actual link
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/metatorLogo.webp"),
+      projectName: "Metator",
+      projectDesc:
+        "VR-based metaverse learning and simulation platform. Led development in Unity XR, optimized VR performance, and built core interaction systems.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.metator.com/" // Replace with actual link
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+    "Recognitions, Certifications, and Highlights from my journey in Game Dev, Web3, and XR.",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Generative AI for Everyone – IBM",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed IBM’s foundational course on Generative AI applications in real-world use cases.",
+      image: require("./assets/images/ibmLogo.webp"),
+      imageAlt: "IBM Certificate",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certification",
+          url: "https://your-link-here.com"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Introduction to Software Engineering – IBM",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Certified in software engineering fundamentals including SDLC, architecture, and system design.",
+      image: require("./assets/images/ibmLogo.webp"),
+      imageAlt: "IBM Software Engineering",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certification",
+          url: "https://your-link-here.com"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Introduction to AI – IBM",
+      subtitle:
+        "Explored the core concepts of Artificial Intelligence and its real-world applications.",
+      image: require("./assets/images/ibmLogo.webp"),
+      imageAlt: "IBM AI Certificate",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certification",
+          url: "https://your-link-here.com"
+        }
+      ]
+    },
+    {
+      title: "Generative AI – Prompt Engineering – IBM",
+      subtitle:
+        "Learned how to design effective AI prompts and engineer responses using LLMs like GPT.",
+      image: require("./assets/images/ibmLogo.webp"),
+      imageAlt: "IBM Prompt Engineering",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://your-link-here.com"
+        }
+      ]
+    },
+    {
+      title: "Generative AI – Introduction and Application – IBM",
+      subtitle:
+        "Covered the foundations of Generative AI and its applications across domains.",
+      image: require("./assets/images/ibmLogo.webp"),
+      imageAlt: "IBM Gen AI",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://your-link-here.com"
         }
       ]
     }
@@ -324,7 +371,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,20 +390,36 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: emoji("Watch Me 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    {
+      image: require("./assets/images/undeadLogo.webp"),
+      projectName: "Undead MetaClash",
+      projectDesc:
+        "Web3 multiplayer battle game with NFT-based characters, maps, and assets. Developed gameplay systems, UI, and decentralized interactions.",
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://drive.google.com/file/d/1hHq9Nw8Ii1KILZfki_oFUBs5xZ3-HhbH/view?usp=sharing" // Replace with actual link
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Metator.png"), // your thumbnail image
+      alt: "Watch Metascapes Demo",
+      link: "https://drive.google.com/file/d/1SbILpmdkWNnk-MA77G_9hQ-zqCLdmrr6/view?usp=sharing" // or full Google Drive link
+    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,9 +434,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "NEED A GAMEDEV, XR, OR WEB3 SPECIALIST TO LEVEL UP YOUR PROJECT? I’M JUST A MESSAGE AWAY.",
+  number: "+92-321 534 9934",
+  email_address: "bilxao.bs@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +446,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
