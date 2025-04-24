@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fd37f246.css",
-    "main.js": "/portfolio/static/js/main.3bf9de38.js",
+    "main.js": "/portfolio/static/js/main.606ff1d9.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.57f01675.chunk.js": "/portfolio/static/js/64.57f01675.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -16,17 +16,17 @@
     "static/media/artificial-intelligence-essentials-v2.png": "/portfolio/static/media/artificial-intelligence-essentials-v2.2ee0b333c8dc42561d18.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Syed Bilal Shah - PMO.pdf": "/portfolio/static/media/Syed Bilal Shah - PMO.f95864f54ffd95c6d595.pdf",
     "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/NUML.png": "/portfolio/static/media/NUML.2f233ef606e9023c2adc.png",
     "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/portfolio/index.html",
     "static/media/metatorLogo.webp": "/portfolio/static/media/metatorLogo.4c8619783f77b837be29.webp",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.fd37f246.css.map": "/portfolio/static/css/main.fd37f246.css.map",
-    "main.3bf9de38.js.map": "/portfolio/static/js/main.3bf9de38.js.map",
+    "main.606ff1d9.js.map": "/portfolio/static/js/main.606ff1d9.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.57f01675.chunk.js.map": "/portfolio/static/js/64.57f01675.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.fd37f246.css",
-    "static/js/main.3bf9de38.js"
+    "static/js/main.606ff1d9.js"
   ]
 }
