@@ -279,13 +279,13 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
   subtitle:
-    "Recognitions, Certifications, and Highlights from my journey in Game Dev, Web3, and XR.",
+    "A showcase of certifications and recognitions earned while working with Generative AI, prompt crafting, and building software systems.",
   achievementsCards: [
     {
       title: "Generative AI for Everyone",
       subtitle:
-        "Completed IBM’s foundational course on Generative AI applications in real-world use cases.",
-      image: require("./assets/images/Coursera 3XVPGQ4G8OL8.pdf"),
+        "Completed Coursera's foundational course on Generative AI applications in real-world use cases.",
+      image: require("./assets/images/GenAI.png"),
       imageAlt: "IBM Certificate",
       footerLink: [
         {
@@ -441,10 +441,10 @@ const contactInfo = {
 
 // Twitter Section
 
-// const twitterDetails = {
-//   userName: "twitter", //Replace "twitter" with your twitter username without @
-//   display: true // Set true to display this section, defaults to false
-// };
+const twitterDetails = {
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
+};
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
