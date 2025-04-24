@@ -282,15 +282,15 @@ const achievementSection = {
     "Recognitions, Certifications, and Highlights from my journey in Game Dev, Web3, and XR.",
   achievementsCards: [
     {
-      title: "Generative AI for Everyone – IBM",
+      title: "Generative AI for Everyone",
       subtitle:
         "Completed IBM’s foundational course on Generative AI applications in real-world use cases.",
-      image: require("./assets/images/ibmLogo.webp"),
+      image: require("./assets/images/Coursera 3XVPGQ4G8OL8.pdf"),
       imageAlt: "IBM Certificate",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://your-link-here.com"
+          url: "https://coursera.org/share/39b49c3914de6a23c15090cc30080602"
         }
       ]
     },
@@ -298,12 +298,12 @@ const achievementSection = {
       title: "Introduction to Software Engineering – IBM",
       subtitle:
         "Certified in software engineering fundamentals including SDLC, architecture, and system design.",
-      image: require("./assets/images/ibmLogo.webp"),
+      image: require("./assets/images/software-engineering-essentials.png"),
       imageAlt: "IBM Software Engineering",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://your-link-here.com"
+          url: "https://coursera.org/share/245bb1513c405879d852932dbdfa5b0e"
         }
       ]
     },
@@ -311,12 +311,12 @@ const achievementSection = {
       title: "Introduction to AI – IBM",
       subtitle:
         "Explored the core concepts of Artificial Intelligence and its real-world applications.",
-      image: require("./assets/images/ibmLogo.webp"),
+      image: require("./assets/images/artificial-intelligence-essentials-v2.png"),
       imageAlt: "IBM AI Certificate",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://your-link-here.com"
+          url: "https://coursera.org/share/a57836cd92b031846cd40bfbca2d045f"
         }
       ]
     },
@@ -324,12 +324,12 @@ const achievementSection = {
       title: "Generative AI – Prompt Engineering – IBM",
       subtitle:
         "Learned how to design effective AI prompts and engineer responses using LLMs like GPT.",
-      image: require("./assets/images/ibmLogo.webp"),
+      image: require("./assets/images/generative-ai-prompt-engineering.png"),
       imageAlt: "IBM Prompt Engineering",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://your-link-here.com"
+          url: "https://coursera.org/share/89becfc534886ed053258f303eaf1f79"
         }
       ]
     },
@@ -337,12 +337,12 @@ const achievementSection = {
       title: "Generative AI – Introduction and Application – IBM",
       subtitle:
         "Covered the foundations of Generative AI and its applications across domains.",
-      image: require("./assets/images/ibmLogo.webp"),
+      image: require("./assets/images/generative-ai-essentials.png"),
       imageAlt: "IBM Gen AI",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://your-link-here.com"
+          url: "https://coursera.org/share/89becfc534886ed053258f303eaf1f79"
         }
       ]
     }
@@ -441,10 +441,10 @@ const contactInfo = {
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
+// const twitterDetails = {
+//   userName: "twitter", //Replace "twitter" with your twitter username without @
+//   display: true // Set true to display this section, defaults to false
+// };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
